@@ -21,8 +21,40 @@
     <!-- jQueryの読み込み -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
-    <h1>フリーエンジニア：ヒコバエ</h1>
-    <h2>Webコーディング・ゲーム開発・アプリ開発</h2>
-    <p>個人でWebコーディングやゲーム開発を仕事にするべく日々奮闘中<br></p>
+<body id="home">
+    <div id="wrapper">
+        <div id="main_area">
+            <div id="first_view">
+                <!-- ファーストビューの枠だけ用意　あとから作ります -->
+            </div>
+            <section id="news" class="home_section">
+                <div class="main_width">
+                    <div class="section_title">
+                        <h2>NEWS</h2>
+                    </div>
+                    <div class="news_group">
+                        <!-- 中身はまだない -->
+                        <p>ニュースはありません（最新の仕事内容などを表示したい）</p>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="home_section">
+                <div class="main_width">
+                    <div class="section_title">
+                        <h2>ABOUT</h2>
+                    </div>
+                    <div>
+                        <h3>ヒコバエ -蘖-Hikobae-</h3>
+                        <p>フリーランスでやっていくために勉強中</p>
+                        <ul>
+                            <li>PHP.SCSSを使った動きのあるWEBコーディング</li>
+                            <li>Ruby on Rails5を使ったWEBアプリケーション</li>
+                            <li>Unityを使ったマルチプラットフォームのゲーム開発およびアプリ開発</li>
+                        </ul>
+                    </div>
+                    <p><?php echo "PHPのテスト" ?></p>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
